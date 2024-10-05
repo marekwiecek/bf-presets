@@ -6365,7 +6365,7 @@
     },
     {
       "fullPath": "presets/4.5/modes/es_zee_es_freestyle_modes.txt",
-      "hash": "faa50dcf1794d7af399b4addccf410a9f135a5a8eb5fbf5cb890014ec15fa54d",
+      "hash": "d9cc564a4f4e524521a15641e2d7cdec084d0de91948006b2da2eb20e708a12f",
       "title": "es_zee_es MODES",
       "firmware_version": [
         "4.3",
@@ -6385,7 +6385,7 @@
     },
     {
       "fullPath": "presets/4.5/osd/es_zee_es_freestyle_osd.txt",
-      "hash": "f5bee3000c392ee6fc238b2613fd82459a700eb3308c5ec3d2c466e20c6bc0c2",
+      "hash": "8b07391e9cab2c7f8b4f7aa0d4c23fc4d20e305b32134b94985d2604b225f2e5",
       "title": "es_zee_es Freestyle OSD",
       "firmware_version": [
         "4.4",

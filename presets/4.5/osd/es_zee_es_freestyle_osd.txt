@@ -27,7 +27,7 @@ set osd_canvas_height = 22
 
 set pilot_name = es_zee_es
 
-#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Craft name
+#$ OPTION_GROUP BEGIN(EXCLUSIVE): Craft name
     #$ OPTION BEGIN (UNCHECKED): Apex3
 		set craft_name = Apex3
     #$ OPTION END

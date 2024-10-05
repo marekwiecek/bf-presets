@@ -10,7 +10,7 @@
 #$ INCLUDE: presets/4.3/modes/defaults.txt
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
-#$ OPTION_GROUP BEGIN: Freestyle or Long Range
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Freestyle or Long Range
     #$ OPTION BEGIN (UNCHECKED): Freestyle
         aux 0 0 0 1925 2100 0 0
 		aux 1 1 1 1875 2100 0 0

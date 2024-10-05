@@ -28,16 +28,12 @@ set roll_srate = 80
 set pitch_srate = 80
 set yaw_srate = 60
 
-#$ OPTION_GROUP BEGIN: Throttle Limit to 85%
+#$ OPTION_GROUP BEGIN: Throttle Limit, Mid and Expo
     #$ OPTION BEGIN (UNCHECKED): Throttle Limit to 85%
 		set throttle_limit_type = SCALE
 		set throttle_limit_percent = 85
     #$ OPTION END
-#$ OPTION_GROUP END
-
-
-#$ OPTION_GROUP BEGIN: Throttle Mid and Expo for Apex 3
-    #$ OPTION BEGIN (UNCHECKED): Throttle Mid to 35% and Expo to 0.8
+	#$ OPTION BEGIN (UNCHECKED): Throttle Mid to 35% and Expo to 0.8
 		set thr_mid = 35
 		set thr_expo = 80
     #$ OPTION END

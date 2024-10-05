@@ -6364,7 +6364,26 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/osd/ez_zee_es_freestyle_osd.txt",
+      "fullPath": "presets/4.5/modes/es_zee_es_freestyle_modes.txt",
+      "hash": "5ac157a61350edcbe24369f6fb6efbf36323f7386b2dbcd39511896e4aad41f6",
+      "title": "es_zee_es MODES",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "MODES",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "es_zee_es",
+        "freestyle",
+        "MODES"
+      ],
+      "author": "es_zee_es",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/osd/es_zee_es_freestyle_osd.txt",
       "hash": "f51d2ab7e739395df54f1baea400d0e71c7199c3ecdea551dd581bcbeea877f8",
       "title": "es_zee_es Freestyle OSD",
       "firmware_version": [
@@ -6578,7 +6597,7 @@
       "priority": 10000
     },
     {
-      "fullPath": "presets/4.5/rates/ez_zee_es_freestyle_rates.txt",
+      "fullPath": "presets/4.5/rates/es_zee_es_freestyle_rates.txt",
       "hash": "0e8c185d4c256d55db10cfc02be729306af46a8a635a1bc75e25465e8ea7f16f",
       "title": "es_zee_es Freestyle Rates",
       "firmware_version": [

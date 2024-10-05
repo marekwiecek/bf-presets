@@ -8,6 +8,7 @@
 #$ AUTHOR: es_zee_es
 #$ DESCRIPTION: es_zee_es's freestyle modes config
 #$ INCLUDE: presets/4.3/modes/defaults.txt
+#$ FORCE_OPTIONS_REVIEW: TRUE
 
 #$ OPTION_GROUP BEGIN: Freestyle or Long Range
     #$ OPTION BEGIN (UNCHECKED): Freestyle

@@ -8,6 +8,7 @@
 #$ AUTHOR: es_zee_es
 #$ DESCRIPTION: es_zee_es's freestyle rates
 #$ INCLUDE: presets/4.3/rates/defaults.txt
+#$ FORCE_OPTIONS_REVIEW: TRUE
 
 rxrange 0 988 2011
 rxrange 1 988 2011

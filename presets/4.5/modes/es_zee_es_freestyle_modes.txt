@@ -9,16 +9,6 @@
 #$ DESCRIPTION: es_zee_es's freestyle modes config
 #$ INCLUDE: presets/4.3/modes/defaults.txt
 
-
-aux 0 0 0 1925 2100 0 0
-aux 1 1 1 1875 2100 0 0
-aux 2 13 5 1850 2100 0 0
-aux 3 28 1 900 1075 0 0
-aux 4 31 3 1950 2075 0 0
-aux 5 35 2 1900 2100 0 0
-aux 6 36 4 1900 2100 0 0
-
-
 #$ OPTION_GROUP BEGIN: Freestyle or Long Range
     #$ OPTION BEGIN (UNCHECKED): Freestyle
         aux 0 0 0 1925 2100 0 0

@@ -6365,8 +6365,8 @@
     },
     {
       "fullPath": "presets/4.5/modes/es_zee_es_freestyle_modes.txt",
-      "hash": "6a99c96d076fbf0f4e90b6121f457a780beaf31cc507a289df84a50837e02697",
-      "title": "es_zee_es MODES",
+      "hash": "b3fe85ec2f0ec1a8649699794e063253243c98b610ae75bebe3bba331ed86bae",
+      "title": "es_zee_es MODES and Serial config",
       "firmware_version": [
         "4.3",
         "4.4",

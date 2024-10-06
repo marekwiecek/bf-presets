@@ -1,4 +1,4 @@
-#$ TITLE: es_zee_es MODES
+#$ TITLE: es_zee_es MODES and Serial config
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
@@ -11,7 +11,7 @@
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
 #$ OPTION_GROUP BEGIN : (EXCLUSIVE) Freestyle or Long Range
-    #$ OPTION BEGIN (UNCHECKED): Freestyle
+    #$ OPTION BEGIN (UNCHECKED): Freestyle - Apex3
         aux 0 0 0 1925 2100 0 0
 		aux 1 1 1 1875 2100 0 0
 		aux 2 13 5 1850 2100 0 0
@@ -19,7 +19,24 @@
 		aux 4 31 3 1950 2075 0 0
 		aux 5 35 2 1900 2100 0 0
 		aux 6 36 4 1900 2100 0 0
+		serial 1 64 115200 57600 0 115200
+		serial 3 131073 115200 57600 0 115200
+    #$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Freestyle - Apex5
+        aux 0 0 0 1925 2100 0 0
+		aux 1 1 1 1875 2100 0 0
+		aux 2 13 5 1850 2100 0 0
+		aux 3 28 1 900 1075 0 0
+		aux 4 31 3 1950 2075 0 0
+		aux 5 35 2 1900 2100 0 0
+		aux 6 36 4 1900 2100 0 0
+		serial 0 64 115200 57600 0 115200
+		serial 1 131073 115200 57600 0 115200
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Long Range (TBD)
     #$ OPTION END
 #$ OPTION_GROUP END
+
+
+
+

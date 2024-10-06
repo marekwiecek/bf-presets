@@ -299,6 +299,7 @@
       "bardwell",
       "basher",
       "basic",
+      "beeper",
       "beginner",
       "betaflight",
       "betafpv",
@@ -6461,6 +6462,24 @@
         "nmea"
       ],
       "author": "KMfpv",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/other/es_zee_es_freestyle_beepers.txt",
+      "hash": "c060ac29ad398a0bcb581ecd26566ff552005886fa9e38d2603258b100d9b0fa",
+      "title": "es_zee_es beeper",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "MODES",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "es_zee_es",
+        "freestyle",
+        "beeper"
+      ],
+      "author": "es_zee_es",
+      "force_options_review": false,
       "priority": 0
     },
     {

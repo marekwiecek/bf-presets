@@ -6506,6 +6506,23 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.5/other/es_zee_es_blackbox.txt",
+      "hash": "8452168dd89e078960b2effacb099d1ef6a8ceed4ca5267fb6c14a947f403af9",
+      "title": "es_zee_es BlackBox",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "es_zee_es",
+        "blackbox"
+      ],
+      "author": "es_zee_es",
+      "force_options_review": false,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/other/es_zee_es_current_and_battery.txt",
       "hash": "182a092fc30f6172bd896b3cf7427e04aea5219c382df0e6dd47ca9fb60dbb32",
       "title": "es_zee_es Current and Battery",

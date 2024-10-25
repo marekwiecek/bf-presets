@@ -1,0 +1,11 @@
+#$ TITLE: es_zee_es BlackBox
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OTHER
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: es_zee_es, blackbox
+#$ AUTHOR: es_zee_es
+#$ DESCRIPTION: es_zee_es's blackbox config
+#$ FORCE_OPTIONS_REVIEW: FALSE
+
+set debug_mode = GYRO_SCALED
+set blackbox_sample_rate = 1/8

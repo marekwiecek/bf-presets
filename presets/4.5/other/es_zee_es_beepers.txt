@@ -1,4 +1,4 @@
-#$ TITLE: es_zee_es beeper
+#$ TITLE: es_zee_es Beepers
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: MODES
 #$ STATUS: EXPERIMENTAL

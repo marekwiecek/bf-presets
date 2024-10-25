@@ -1,0 +1,32 @@
+#$ TITLE: es_zee_es Current and Battery
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OTHER
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: es_zee_es, battery capacity, current sensor
+#$ AUTHOR: es_zee_es
+#$ DESCRIPTION: es_zee_es qwads current sensor and battery capacity settings
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
+set report_cell_voltage = ON
+
+#$ OPTION_GROUP BEGIN : (EXCLUSIVE) Choose the Qwad to apply settings
+    #$ OPTION BEGIN (UNCHECKED): Freestyle - Apex3
+		set bat_capacity = 450
+		set ibata_scale = 166
+		set vbat_min_cell_voltage = 335
+		set vbat_warning_cell_voltage = 345
+    #$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Freestyle - Apex5
+		set bat_capacity = 1000
+		set ibata_scale = 123
+		set vbat_min_cell_voltage = 335
+		set vbat_warning_cell_voltage = 345
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Long Range - Chimera7
+		set bat_capacity = 4400
+		set vbat_min_cell_voltage = 265
+		set vbat_warning_cell_voltage = 280
+		set vbat_scale = 111
+		set ibata_scale = 98
+    #$ OPTION END
+#$ OPTION_GROUP END

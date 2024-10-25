@@ -299,6 +299,7 @@
       "bardwell",
       "basher",
       "basic",
+      "battery capacity",
       "beeper",
       "beginner",
       "betaflight",
@@ -333,6 +334,7 @@
       "CRSF",
       "ctzsnooze",
       "CTZsoonze",
+      "current sensor",
       "custom commands",
       "darwin",
       "darwinfpv",
@@ -6464,8 +6466,8 @@
     },
     {
       "fullPath": "presets/4.5/other/es_zee_es_beepers.txt",
-      "hash": "2f0021dd678ab399f737d3ef3adaf2d02c9b368cfaf1d462dc1f6d7d33dfa5f2",
-      "title": "es_zee_es beeper",
+      "hash": "e5aaaa0cec4ab6c6c8c45436c081b26f427e5f188aa3edc0a005c5e7214ee381",
+      "title": "es_zee_es Beepers",
       "firmware_version": [
         "4.5"
       ],
@@ -6477,6 +6479,24 @@
       ],
       "author": "es_zee_es",
       "force_options_review": false,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/other/es_zee_es_current_and_battery.txt",
+      "hash": "182a092fc30f6172bd896b3cf7427e04aea5219c382df0e6dd47ca9fb60dbb32",
+      "title": "es_zee_es Current and Battery",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "es_zee_es",
+        "battery capacity",
+        "current sensor"
+      ],
+      "author": "es_zee_es",
+      "force_options_review": true,
       "priority": 0
     },
     {

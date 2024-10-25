@@ -6,12 +6,12 @@
 #$ AUTHOR: es_zee_es
 #$ DESCRIPTION: es_zee_es qwads enable specific features
 #$ FORCE_OPTIONS_REVIEW: TRUE
-#$ INCLUDE: presets/4.5/other/reset_gps.txt
 
 feature TELEMETRY
 feature OSD
 
 #$ OPTION BEGIN (UNCHECKED): Enable Chimera7 GPS and LED config
+	#$ INCLUDE: presets/4.5/other/reset_gps.txt
 	feature GPS
 	set failsafe_delay = 4
 	set failsafe_procedure = GPS-RESCUE

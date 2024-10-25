@@ -1,0 +1,79 @@
+#$ TITLE: es_zee_es OSD
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OSD
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: es_zee_es, freestyle, osd, long range
+#$ AUTHOR: es_zee_es
+#$ DESCRIPTION: es_zee_es's osd config
+#$ INCLUDE: presets/4.4/osd/defaults.txt
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
+set pilot_name = es_zee_es
+set osd_canvas_width = 60
+set osd_canvas_height = 22
+
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Craft name
+    #$ OPTION BEGIN (UNCHECKED): Apex3 Freestyle
+		set craft_name = Apex3
+		set osd_rssi_dbm_alarm = -98
+		set osd_vbat_pos = 2536
+		set osd_rssi_pos = 2543
+		set osd_link_quality_pos = 2575
+		set osd_rssi_dbm_pos = 2607
+		set osd_tim_1_pos = 2714
+		set osd_tim_2_pos = 2682
+		set osd_flymode_pos = 3686
+		set osd_current_pos = 2671
+		set osd_mah_drawn_pos = 2639
+		set osd_craft_name_pos = 3590
+		set osd_warnings_pos = 14906
+		set osd_disarmed_pos = 2650
+    #$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Apex5 Freestyle
+		set craft_name = Apex5
+		set osd_rssi_dbm_alarm = -98
+		set osd_vbat_pos = 2536
+		set osd_rssi_pos = 2543
+		set osd_link_quality_pos = 2575
+		set osd_rssi_dbm_pos = 2607
+		set osd_tim_1_pos = 2714
+		set osd_tim_2_pos = 2682
+		set osd_flymode_pos = 3686
+		set osd_current_pos = 2671
+		set osd_mah_drawn_pos = 2639
+		set osd_craft_name_pos = 3590
+		set osd_warnings_pos = 14906
+		set osd_disarmed_pos = 2650
+    #$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Chimera7 Long Range
+		set craft_name = Apex5
+		set osd_warn_bitmask = 55833
+		set osd_stat_bitmask = 15076991
+		set osd_rssi_dbm_alarm = -111
+		set osd_vbat_pos = 2732
+		set osd_link_quality_pos = 2508
+		set osd_rssi_dbm_pos = 2476
+		set osd_rsnr_pos = 524
+		set osd_tim_1_pos = 2668
+		set osd_tim_2_pos = 2636
+		set osd_flymode_pos = 3747
+		set osd_throttle_pos = 2412
+		set osd_ah_sbar_pos = 317
+		set osd_ah_pos = 120
+		set osd_current_pos = 2380
+		set osd_mah_drawn_pos = 2573
+		set osd_craft_name_pos = 2650
+		set osd_pilot_name_pos = 2682
+		set osd_gps_speed_pos = 2169
+		set osd_gps_lon_pos = 2061
+		set osd_gps_lat_pos = 2093
+		set osd_gps_sats_pos = 3178
+		set osd_home_dir_pos = 2206
+		set osd_home_dist_pos = 2174
+		set osd_flight_dist_pos = 3172
+		set osd_altitude_pos = 2160
+		set osd_warnings_pos = 14520
+		set osd_avg_cell_voltage_pos = 2739
+		set osd_disarmed_pos = 2746
+    #$ OPTION END
+#$ OPTION_GROUP END

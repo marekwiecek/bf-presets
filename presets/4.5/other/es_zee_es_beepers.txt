@@ -2,9 +2,9 @@
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: MODES
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: es_zee_es, freestyle, beeper
+#$ KEYWORDS: es_zee_es, beeper
 #$ AUTHOR: es_zee_es
-#$ DESCRIPTION: es_zee_es's freestyle beeper config
+#$ DESCRIPTION: es_zee_es's beeper config
 #$ FORCE_OPTIONS_REVIEW: FALSE
 
 # beeper
@@ -34,3 +34,5 @@ beeper -RC_SMOOTHING_INIT_FAIL
 # beacon
 beacon RX_LOST
 beacon RX_SET
+
+set beeper_dshot_beacon_tone = 2

@@ -428,6 +428,7 @@
       "loRanger",
       "lr5",
       "mamba",
+      "map",
       "Marek",
       "mck",
       "meteor",
@@ -6365,19 +6366,16 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/modes/es_zee_es_freestyle_modes.txt",
-      "hash": "b3fe85ec2f0ec1a8649699794e063253243c98b610ae75bebe3bba331ed86bae",
-      "title": "es_zee_es MODES and Serial config",
+      "fullPath": "presets/4.5/modes/es_zee_es_modes.txt",
+      "hash": "dea1a289a1b5109c6e4ea2d135d66b0403d4e873b7ee0b8de32e635dc628fea2",
+      "title": "es_zee_es Modes and Serial config",
       "firmware_version": [
-        "4.3",
-        "4.4",
         "4.5"
       ],
       "category": "MODES",
       "status": "EXPERIMENTAL",
       "keywords": [
         "es_zee_es",
-        "freestyle",
         "MODES"
       ],
       "author": "es_zee_es",
@@ -6385,11 +6383,10 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/osd/es_zee_es_freestyle_osd.txt",
-      "hash": "f5bee3000c392ee6fc238b2613fd82459a700eb3308c5ec3d2c466e20c6bc0c2",
-      "title": "es_zee_es Freestyle OSD",
+      "fullPath": "presets/4.5/osd/es_zee_es_osd.txt",
+      "hash": "cfbc34dba7bc6a0bc8bb4b95048ee9c48b26d7912fc4524e10688c3e744fb5e9",
+      "title": "es_zee_es OSD",
       "firmware_version": [
-        "4.4",
         "4.5"
       ],
       "category": "OSD",
@@ -6397,7 +6394,8 @@
       "keywords": [
         "es_zee_es",
         "freestyle",
-        "osd"
+        "osd",
+        "long range"
       ],
       "author": "es_zee_es",
       "force_options_review": true,
@@ -6465,8 +6463,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/other/es_zee_es_freestyle_beepers.txt",
-      "hash": "c060ac29ad398a0bcb581ecd26566ff552005886fa9e38d2603258b100d9b0fa",
+      "fullPath": "presets/4.5/other/es_zee_es_beepers.txt",
+      "hash": "2f0021dd678ab399f737d3ef3adaf2d02c9b368cfaf1d462dc1f6d7d33dfa5f2",
       "title": "es_zee_es beeper",
       "firmware_version": [
         "4.5"
@@ -6475,7 +6473,6 @@
       "status": "EXPERIMENTAL",
       "keywords": [
         "es_zee_es",
-        "freestyle",
         "beeper"
       ],
       "author": "es_zee_es",
@@ -6618,19 +6615,18 @@
       "priority": 10000
     },
     {
-      "fullPath": "presets/4.5/rates/es_zee_es_freestyle_rates.txt",
-      "hash": "23ba8a6f6a4b1bcbf6bc372e6e9891efe8ffc613b187874f5dcae6178378abd2",
-      "title": "es_zee_es Freestyle Rates",
+      "fullPath": "presets/4.5/rates/es_zee_es_rates.txt",
+      "hash": "e67000d801efca14d0a37b85b8fe07fca789c69c56d5562547e4e26d30786025",
+      "title": "es_zee_es Rates and Map",
       "firmware_version": [
-        "4.3",
-        "4.4",
         "4.5"
       ],
       "category": "RATES",
       "status": "EXPERIMENTAL",
       "keywords": [
         "es_zee_es",
-        "freestyle"
+        "rates",
+        "map"
       ],
       "author": "es_zee_es",
       "force_options_review": true,

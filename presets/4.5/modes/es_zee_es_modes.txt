@@ -1,12 +1,10 @@
-#$ TITLE: es_zee_es MODES and Serial config
-#$ FIRMWARE_VERSION: 4.3
-#$ FIRMWARE_VERSION: 4.4
+#$ TITLE: es_zee_es Modes and Serial config
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: MODES
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: es_zee_es, freestyle, MODES
+#$ KEYWORDS: es_zee_es, MODES
 #$ AUTHOR: es_zee_es
-#$ DESCRIPTION: es_zee_es's freestyle modes config
+#$ DESCRIPTION: es_zee_es's modes config
 #$ INCLUDE: presets/4.3/modes/defaults.txt
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
@@ -33,7 +31,17 @@
 		serial 0 64 115200 57600 0 115200
 		serial 1 131073 115200 57600 0 115200
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): Long Range (TBD)
+    #$ OPTION BEGIN (UNCHECKED): Long Range - Chimera7
+		aux 0 0 0 1875 2100 0 0
+		aux 1 1 1 1875 2100 0 0
+		aux 2 46 3 1875 2100 0 0
+		aux 3 13 5 1875 2100 0 0
+		aux 4 31 2 1900 2100 0 0
+		aux 5 36 4 1875 2100 0 0
+		aux 6 37 2 1400 1600 0 0
+		serial 0 64 115200 57600 0 115200
+		serial 1 131073 115200 57600 0 115200
+		serial 3 2 115200 57600 0 115200
     #$ OPTION END
 #$ OPTION_GROUP END
 

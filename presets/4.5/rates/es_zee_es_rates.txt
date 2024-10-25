@@ -1,19 +1,19 @@
-#$ TITLE: es_zee_es Freestyle Rates
-#$ FIRMWARE_VERSION: 4.3
-#$ FIRMWARE_VERSION: 4.4
+#$ TITLE: es_zee_es Rates and Map
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: RATES
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: es_zee_es, freestyle
+#$ KEYWORDS: es_zee_es, rates, map
 #$ AUTHOR: es_zee_es
-#$ DESCRIPTION: es_zee_es's freestyle rates
+#$ DESCRIPTION: es_zee_es's rates
 #$ INCLUDE: presets/4.3/rates/defaults.txt
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
-rxrange 0 988 2011
-rxrange 1 988 2011
-rxrange 2 988 2011
-rxrange 3 988 2011
+rxrange 0 989 2012
+rxrange 1 989 2012
+rxrange 2 989 2012
+rxrange 3 989 2012
+
+map TREA1234
 
 rateprofile 0
 set rates_type = ACTUAL
@@ -29,12 +29,12 @@ set pitch_srate = 80
 set yaw_srate = 60
 
 #$ OPTION_GROUP BEGIN: Throttle Limit, Mid and Expo
-    #$ OPTION BEGIN (UNCHECKED): Throttle Limit to 85%
+    #$ OPTION BEGIN (UNCHECKED): Throttle Limit to 90%
 		set throttle_limit_type = SCALE
-		set throttle_limit_percent = 85
+		set throttle_limit_percent = 90
     #$ OPTION END
-	#$ OPTION BEGIN (UNCHECKED): Apex3 Throttle Mid to 35% and Expo to 0.8
-		set thr_mid = 35
-		set thr_expo = 80
+	#$ OPTION BEGIN (UNCHECKED): Apex3 Throttle Mid to 19% and Expo to 0.4
+		set thr_mid = 19
+		set thr_expo = 40
     #$ OPTION END
 #$ OPTION_GROUP END

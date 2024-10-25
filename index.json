@@ -6507,7 +6507,7 @@
     },
     {
       "fullPath": "presets/4.5/other/es_zee_es_blackbox.txt",
-      "hash": "8452168dd89e078960b2effacb099d1ef6a8ceed4ca5267fb6c14a947f403af9",
+      "hash": "d07176c490f6a18107940b2d2527df190867786e58a490e873676c376025fd70",
       "title": "es_zee_es BlackBox",
       "firmware_version": [
         "4.5"
@@ -6758,6 +6758,25 @@
       ],
       "author": "ZoeFPV",
       "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.5/rc_link/es_zee_es_elrs.txt",
+      "hash": "26b7702892562823b842b8acb78f20c62bc99827bef2afcc0b3336c481029539",
+      "title": "es_zee_es ELRS RC LINK",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "RC_LINK",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "es_zee_es",
+        "ELRS",
+        "50hz",
+        "250hz"
+      ],
+      "author": "es_zee_es",
+      "force_options_review": true,
+      "priority": 10000000000
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_3.5_tune.txt",

@@ -1,0 +1,36 @@
+#$ TITLE: es_zee_es ELRS RC LINK
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: RC_LINK
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: es_zee_es, ELRS, 50hz, 250hz
+#$ AUTHOR: es_zee_es
+#$ DESCRIPTION: RC link settings for es_zee_es qwads
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
+#$ INCLUDE: presets/4.3/rc_link/defaults.txt
+
+# basic requirements for ExpressLRS 
+feature RX_SERIAL
+set serialrx_provider = CRSF
+
+#$ OPTION_GROUP BEGIN : (EXCLUSIVE) Select between 50Hz (for LR) and 250Hz (FS)
+	#$ OPTION BEGIN (UNCHECKED): Long Range ELRS 50Hz Cinematic HD
+		set feedforward_averaging = OFF
+		set rc_smoothing_setpoint_cutoff = 12
+		set feedforward_smooth_factor = 20
+		set rc_smoothing_auto_factor = 35
+		set feedforward_jitter_factor = 15
+		set feedforward_boost = 5
+		set rc_smoothing_feedforward_cutoff = 12
+		set rc_smoothing_auto_factor_throttle = 28
+		set rc_smoothing_throttle_cutoff = 20
+	#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Freestyle ELRS 250Hz Cinematic HD
+		set feedforward_averaging = 2_POINT
+		set feedforward_smooth_factor = 45
+		set feedforward_jitter_factor = 10
+		set rc_smoothing_auto_factor = 140
+		set rc_smoothing_setpoint_cutoff = 25
+		set rc_smoothing_feedforward_cutoff = 25
+	#$ OPTION END
+#$ OPTION_GROUP END

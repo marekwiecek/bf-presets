@@ -420,6 +420,7 @@
       "launch_mode",
       "LeadFingers",
       "League",
+      "led",
       "leds",
       "Limon",
       "link",
@@ -547,6 +548,7 @@
       "TBS",
       "tbs sa",
       "Team Black Sheep",
+      "telemetry",
       "Texas",
       "thicc",
       "tiny",
@@ -6494,6 +6496,25 @@
         "es_zee_es",
         "battery capacity",
         "current sensor"
+      ],
+      "author": "es_zee_es",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/other/es_zee_es_features.txt",
+      "hash": "2608b2b2270557abb72f73e1d52eadc3bbae1f630cad5a53b7a68e9fbf7f83c8",
+      "title": "es_zee_es Features OSD, TELEMETRY, LED, OSD, GPS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "es_zee_es",
+        "telemetry",
+        "led",
+        "gps"
       ],
       "author": "es_zee_es",
       "force_options_review": true,

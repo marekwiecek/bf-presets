@@ -46,7 +46,7 @@ set osd_canvas_height = 22
 		set osd_disarmed_pos = 2650
     #$ OPTION END
 	#$ OPTION BEGIN (UNCHECKED): Chimera7 Long Range
-		set craft_name = Apex5
+		set craft_name = Chimera-7
 		set osd_warn_bitmask = 55833
 		set osd_stat_bitmask = 15076991
 		set osd_rssi_dbm_alarm = -111

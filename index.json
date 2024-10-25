@@ -1670,6 +1670,28 @@
       "priority": 10000
     },
     {
+      "fullPath": "presets/4.3/rates/SugarK_whoop.txt",
+      "hash": "9d805ecc28c5645d0770d31e0d2510e8b6cdc4b8994caa5fa98583e3e09f538a",
+      "title": "Sugar k Whoop rates",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "RATES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "racing",
+        "rates",
+        "MultiGP",
+        "quaddiction",
+        "tyrant",
+        "sugar k"
+      ],
+      "author": "sugarK",
+      "priority": 10000
+    },
+    {
       "fullPath": "presets/4.3/rates/UAV_tech.txt",
       "hash": "8f400aca920265d3f11a105e8ff18c8c5292f0d586bc967d58f8985ee71f3f8c",
       "title": "UAV Tech Rates (w/ Cinematic/Whoop Options)",
@@ -6503,7 +6525,7 @@
     },
     {
       "fullPath": "presets/4.5/other/es_zee_es_features.txt",
-      "hash": "2608b2b2270557abb72f73e1d52eadc3bbae1f630cad5a53b7a68e9fbf7f83c8",
+      "hash": "989034a96df213f34529ef1e040aa0a65c04e2f9ee84c2c880634093a53ca6e5",
       "title": "es_zee_es Features OSD, TELEMETRY, LED, OSD, GPS",
       "firmware_version": [
         "4.5"
@@ -7267,6 +7289,28 @@
         "thicc",
         "loRanger",
         "sliders"
+      ],
+      "author": "sugarK",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/karate/karate_whoop_late_2024.txt",
+      "hash": "6b64d36ecb7111657f504d13ff8e6e0118f5a2df2c90d6fb79bda9256d30871b",
+      "title": "Karate RACE Whoop late2024",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "karate",
+        "1S",
+        "race",
+        "brushless",
+        "whoop",
+        "65mm",
+        "sugarK",
+        "KarateBrot"
       ],
       "author": "sugarK",
       "priority": 1000000000000

@@ -6,7 +6,7 @@
 #$ AUTHOR: es_zee_es
 #$ DESCRIPTION: es_zee_es qwads enable specific features
 #$ FORCE_OPTIONS_REVIEW: TRUE
-#$ INCLUDE: presets/4.3/rates/defaults.txt
+#$ INCLUDE: presets/4.5/other/reset_gps.txt
 
 feature TELEMETRY
 feature OSD
